@@ -129,7 +129,14 @@ function App() {
         setOpen={setOpenAdd}
         triggerTodo={addTodo}
       />
+
+      <Divider variant="middle" />
+
+
+      <p className="footer">© A React Application by Alexander Margraf | Januar 2023</p>
     </div>
+
+
   );
 }
 
