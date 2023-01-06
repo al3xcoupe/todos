@@ -34,7 +34,7 @@ function ToDoCard({ todo, deleteTodo, duplicateTodo, editTodo, updateTodo }) {
   };
 
   const handleDone = () => {
-    if (todo.state == "open") {
+    if (todo.state === "open") {
       updateTodo({ ...todo, state: "done" });
     } else {
       updateTodo({ ...todo, state: "open" });
